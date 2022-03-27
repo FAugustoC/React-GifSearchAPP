@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,600;1,100;1,300;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Montserrat', 'Open Sans', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #21232A;
+  color: #FFF;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#app {
+    margin: 4rem;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: lighter;
+    margin: 4rem 0rem 1rem 0rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 1rem 2rem 2rem 2rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: normal;
+    margin: 2rem 0rem 2rem 0rem;
+    text-align: center;
+    color: coral;
+}
+
+h4 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: rgb(228, 228, 228);
+    margin: 0;
+}
+
+hr {
+    margin: 0;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+button {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 0.2rem 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    display: block;
+}
+
+input {
+    display: block;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    padding: 10px 10px;
+    width: 50%;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.card {
+    align-content: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 10px 10px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+.card p {
+    color: #21232A;
+    text-align: center;
+    padding: 5px;
+}
+
+.card img {
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 250px;
+    padding: 10px;
+    display: block;
+}
+
+.card-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
